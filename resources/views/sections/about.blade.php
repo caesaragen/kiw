@@ -14,7 +14,7 @@
                     inspiring keynotes, panels, and workshops.
                     Perfect for business owners, entrepreneurs, and those eager to learn from the best.
                     <b>Connect, learn,
-                        and grow with us!</b> 
+                        and grow with us!</b>
                 </p>
             </div>
             <div class="shadow py-5">

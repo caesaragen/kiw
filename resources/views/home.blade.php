@@ -12,6 +12,13 @@
                 @include('sections.keynote')
                 @include('partials.rowsep')
                 @include('sections.lineup')
+                @include('sections.keynote_1')
+                @include('partials.rowsep')
+                @include('sections.keynote_2')
+                @include('partials.rowsep')
+                @include('sections.welcome_form')
+                @include('partials.rowsep')
+                @include('sections.sponsors')
             </div>
             @include('layouts.sidebar')
             <!--Mobile responsive sidebar-->
