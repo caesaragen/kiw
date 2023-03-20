@@ -19,6 +19,7 @@
                 @include('sections.welcome_form')
                 @include('partials.rowsep')
                 @include('sections.sponsors')
+                @include('layouts.footer')
             </div>
             @include('layouts.sidebar')
             <!--Mobile responsive sidebar-->
