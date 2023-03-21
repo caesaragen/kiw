@@ -1,7 +1,7 @@
 <section
     class="bg-[url('../../public/img/comingsoon.png')] bg-cover  bg-no-repeat  bg-top flex items-center space-between">
     <div class="bg-[#0F7874] bg-opacity-94 w-full h-full flex justify-center items-center">
-        <div class="flex flex-col lg:flex-row  lg:gap-36 mx-auto lg:py-16">
+        <div class="mx-auto  flex flex-col lg:flex-row items-center lg:justify-between px-10 lg:px-64 gap-10 py-10 lg:gap-16">
             <div class="mb-5 flex flex-col justify-center items-start">
                 <div class="mb-5">
                     <h2 class="text-[#EAB913] text-[40px] font-extrabold text-center italic">

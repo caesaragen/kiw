@@ -1,7 +1,7 @@
 <x-app-layout>
 
-    <div class="w-full h-full bg-gray-200 justify-center items-center">
-        <div class="flex flex-no-wrap justify-center items-center">
+    <div class="h-full bg-gray-200 flex justify-center items-center">
+        <div class="flex  justify-center items-center">
             <div class="w-full">
                 @include('layouts.navigation')
                 @include('sections.hero')

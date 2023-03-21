@@ -18,30 +18,6 @@
                 </p>
             </div>
             @endforeach
-            {{-- <div class="mb-5 flex flex-col justify-center items-center ">
-                <img src="{{ asset('img/gok.png') }}" alt="about" class="max-w-none  object-contain">
-                <p class="text-center text-black text-[18px] text-bold">
-                    GoK (Ministry of <br> Foreign Affairs}
-                </p>
-            </div>
-            <div class="mb-5 flex flex-col justify-center items-center ">
-                <img src="{{ asset('img/sponsor_1.png') }}" alt="about" class="max-w-none  object-contain">
-                <p class="text-center text-black text-[18px] text-bold">
-                    KeNia
-                </p>
-            </div>
-            <div class="mb-5 flex flex-col justify-center items-center ">
-                <img src="{{ asset('img/gok.png') }}" alt="about"  class="max-w-none  object-contain">
-                <p class="text-center text-black text-[18px] text-bold">
-                    GoK (Ministry of <br> of Youth)
-                </p>
-            </div>
-            <div class="mb-5 flex flex-col justify-center items-center ">
-                <img src="{{ asset('img/commonwealth.png') }}" alt="about" class="max-w-none  object-contain">
-                      <p class="text-center text-black text-[18px] text-bold">
-                        Commonwealth
-                </p>
-            </div> --}}
         </div>
     </div>
 </section>

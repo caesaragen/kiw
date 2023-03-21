@@ -1,7 +1,7 @@
 <section
     class="bg-[url('../../public/img/comingsoon.png')] bg-cover  bg-no-repeat  bg-top flex items-center space-between">
     <div class="bg-[#0F7874] bg-opacity-94 w-full h-full">
-        <div class="mx-auto  flex flex-col lg:flex-row lg:justify-between items-center px-10 lg:px-64 gap-10 py-10">
+        <div class="mx-auto  flex flex-col lg:flex-row items-center lg:justify-between px-10 lg:px-64 gap-10 py-10 lg:gap-16">
             <div class="flex-col w-1/2 gap-5">
                 <div class="mb-5">
                     <p class="font-extrabold text-xl text-white text-center">NAIROBI COOPERATIVE INSURANCE</p>
@@ -12,10 +12,32 @@
                     </p>
                 </div>
                 <div class="mb-5">
-                    <p class="font-extrabold text-xl text-white text-center"><i class="fa-sharp fa-solid fa-location-dot mr-4"></i>NAIROBI COOPERATIVE INSURANCE</p>
+                    <p class="font-extrabold text-xl text-white text-center"><i
+                            class="fa-sharp fa-solid fa-location-dot mr-4"></i>NAIROBI COOPERATIVE INSURANCE</p>
                 </div>
             </div>
-            <img src="{{ asset('img/about.png') }}" alt="about" class="lg:w-1/3">
+            <div class="w-full lg:w-1/3" id="clockdiv">
+                <div class="flex lg:flex-row justify-between items-center">
+                    <div class="bg-[#EAB913] w-1/2 h-32 flex flex-col justify-center items-center">
+                        <span class="days text-white font-extrabold text-[4rem] text-center" id="day"></span>
+                        <div class="smalltext text-white">Days</div>
+                    </div>
+                    <div class="bg-[#00201FE3] w-1/2 h-32 flex flex-col justify-center items-center">
+                        <span class="hours text-white font-extrabold text-[4rem] text-center" id="hour"></span>
+                        <div class="smalltext text-white">Hours</div>
+                    </div>
+                </div>
+                <div class="flex lg:flex-row justify-between items-center">
+                    <div class="bg-[#00201FE3] w-1/2 h-32 flex flex-col justify-center items-center">
+                        <span class="minutes text-white font-extrabold text-[4rem] text-center" id="minute"></span>
+                        <div class="smalltext text-white">Minutes</div>
+                    </div>
+                    <div class="bg-[#EAB913] w-1/2 h-32 flex flex-col justify-center items-center">
+                        <span class="seconds text-white font-extrabold text-[4rem] text-center" id="second"></span>
+                        <div class="smalltext text-white">Seconds</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
