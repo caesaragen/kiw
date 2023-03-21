@@ -56,6 +56,14 @@ return [
             'throw' => false,
         ],
 
+        'uploads' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/files/uploads'),
+            'url' => env('APP_URL').'/storage/files/uploads',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
     ],
 
     /*

@@ -12,7 +12,7 @@
                     </p>
                 </div>
                 <div class="mb-5">
-                    <p class="font-extrabold text-xl text-white text-center">NAIROBI COOPERATIVE INSURANCE</p>
+                    <p class="font-extrabold text-xl text-white text-center"><i class="fa-sharp fa-solid fa-location-dot mr-4"></i>NAIROBI COOPERATIVE INSURANCE</p>
                 </div>
             </div>
             <img src="{{ asset('img/about.png') }}" alt="about" class="lg:w-1/3">

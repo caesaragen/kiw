@@ -10,7 +10,15 @@
             </div>
         </div>
         <div class="flex flex-col lg:flex-row  lg:gap-36">
+            @foreach ($sponsors as $sponsor)
             <div class="mb-5 flex flex-col justify-center items-center ">
+                <img src= "{{ asset('storage/files/uploads/'.$sponsor->image) }}" alt="about" class="max-w-none  object-contain">
+                <p class="text-center text-black text-[18px] text-bold">
+                    {{ $sponsor->name }}
+                </p>
+            </div>
+            @endforeach
+            {{-- <div class="mb-5 flex flex-col justify-center items-center ">
                 <img src="{{ asset('img/gok.png') }}" alt="about" class="max-w-none  object-contain">
                 <p class="text-center text-black text-[18px] text-bold">
                     GoK (Ministry of <br> Foreign Affairs}
@@ -33,7 +41,7 @@
                       <p class="text-center text-black text-[18px] text-bold">
                         Commonwealth
                 </p>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
