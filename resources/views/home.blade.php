@@ -1,6 +1,6 @@
 <x-app-layout>
 
-    <div class="h-full bg-gray-200 flex justify-center items-center">
+    <div class="h-full  bg-gray-200 flex justify-center items-center">
         <div class="flex  justify-center items-center">
             <div class="w-full">
                 @include('layouts.navigation')

@@ -1,7 +1,7 @@
 <section
     class="bg-[url('../../public/img/comingsoon.png')] bg-cover  bg-no-repeat  bg-top flex items-center space-between">
     <div class="bg-[#0F7874] bg-opacity-94 w-full h-full">
-        <div class="mx-auto  flex flex-col lg:flex-row items-center lg:justify-between px-10 lg:px-64 gap-10 py-10 lg:gap-16">
+        <x-section-container>
             <div class="flex-col w-1/2 gap-5">
                 <div class="mb-5">
                     <p class="font-extrabold text-xl text-white text-center">NAIROBI COOPERATIVE INSURANCE</p>
@@ -38,6 +38,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </x-section-container>
     </div>
 </section>

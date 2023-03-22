@@ -1,6 +1,6 @@
 <section
     class="bg-[url('../../public/img/speakers.png')] bg-cover  bg-no-repeat  bg-top flex items-center space-between">
-    <div class="flex flex-wrap flex-col lg:flex-row mx-auto lg:justify-between lg:items-center px-10 lg:px-64 py-16">
+    <x-section-container>
         <div class="flex  flex-col lg:flex-row items-center justify-center lg:w-1/3 lg:items-start text-left p-4 lg:p-1">
             <div class="mr-4">
                 <span class="w-[48px]">
@@ -58,5 +58,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </x-section-container>
 </section>

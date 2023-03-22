@@ -1,7 +1,7 @@
 <div class="w-full rounded">
 <section
     class="bg-[url('../../public/img/hero.png')] bg-cover  bg-no-repeat min-h-[130vh] bg-top flex items-center space-between">
-    <div class="mx-auto py-16 sm:px-6 lg:py-24 lg:flex lg:justify-between lg:flex-row flex-col gap-10 lg:gap-16">
+    <x-section-container>
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span class="block mb-5">
                 <h2 class="text-white text-[53px]">INNOVATION IN THE</h2>
@@ -28,7 +28,7 @@
                     See you in Nairobi this December.</p>
             </div>
         </div>
-    </div>
+    </x-section-container>
 
 </section>
 </div>

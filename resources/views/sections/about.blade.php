@@ -1,5 +1,5 @@
 <section class=" md:mx-auto bg-white">
-    <div class="mx-auto  flex flex-col lg:flex-row items-center lg:justify-between px-10 lg:px-64 gap-10 py-10 lg:gap-16">
+    <x-section-container>
         <div class="flex-col lg:w-1/2 gap-5">
             <div class="mb-5">
 
@@ -26,7 +26,7 @@
             </div>
         </div>
         <img src="{{ asset('img/about.png') }}" alt="about" class="lg:w-1/3">
-    </div>
+    </x-section-container>
 
 
 

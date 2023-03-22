@@ -1,6 +1,6 @@
 <section
     class="bg-white flex items-center space-between">
-    <div class="mx-auto  flex flex-col items-center px-10 lg:px-64 gap-10 py-10">
+    <x-sub-container>
         <div class="flex-col w-full gap-5">
             <div class="mb-5 flex flex-col justify-center items-center">
                 <h2 class="font-extrabold text-[#000000] text-[38px] text-center">
@@ -19,5 +19,5 @@
             </div>
             @endforeach
         </div>
-    </div>
+    </x-sub-container>
 </section>

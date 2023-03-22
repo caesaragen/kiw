@@ -1,7 +1,7 @@
 <section
     class="bg-[url('../../public/img/speakers.png')] bg-cover  bg-no-repeat  bg-top flex items-center space-between">
     {{-- <div class="bg-[#0F7874] bg-opacity-40 w-full h-full"> --}}
-    <div class="mx-auto  flex flex-col items-center px-10 lg:px-64 gap-10 py-10">
+    <x-sub-container>
         <div class="flex-col w-full gap-5">
             <div class="mb-5">
                 <h2 class="text-[#EAB913] text-[40px] font-extrabold text-center italic">
@@ -19,6 +19,6 @@
              lg:px-5 py-7 border border-[#EAB913] text-base font-medium rounded-md
               text-white bg-[#0F7874] hover:bg-indigo-200">VIEW FULL SCHEDULE AND PLAN YOUR ATTENDANCE</a>
         </div>
-    </div>
+    </x-sub-container>
     {{-- </div> --}}
 </section>
